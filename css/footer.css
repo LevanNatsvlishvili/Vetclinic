@@ -1,55 +1,58 @@
-    body {
-        font-family: sans-serif;
+
+    .footer {
+        margin: 0px !important;
+        background: #73ad4a;
+        text-align: center;
+        padding-top: 20px;
+        border-radius: 0px;
+        filter: drop-shadow(2px 4px 6px rgba(63, 63, 63, 0.226));
+    }
+    
+    .footer h6 {
+        color: #fff;
+    }
+    
+    .footer p {
+        color: #fff;
+        margin: 5px;
+    }
+    
+    .footer a {
+        font-size: 34px;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .ciercals {
+        width: 14px;
+        height: 14px;
+        background: #79d637;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    
+    .ciercals1 {
+        align-self: center;
+        margin-bottom: 46px;
+        text-align: -webkit-right;
+        text-align: center;
+    }
+    
+    .ciercals2 {
+        align-self: center;
+        margin-bottom: 46px;
+        text-align: -webkit-right;
+        text-align: center;
+    }
+    
+    footer {
         margin: 0px;
         padding: 0px;
-        background: #196370;
-        width: 100%;
+        background: #1d6272;
+        text-align: right;
     }
     
-    .offer {
-        width: 100%;
-        min-height: 92vh;
-        background-color: #196370;
-        position: relative;
-        display: flex;
-        align-items: center;
-    }
-    
-    .offer-heading h1{
-      font-weight: bold;
-      font-size: 26px;
-      color: #e2e2e2;
-    }
-    
-    .offer-heading p{
-      font-size: 20px;
-      color: #e2e2e2;
-    }
-
-    .offer-background {
-      width:100%;
-      height: 100%;
-      position: absolute;
-      right: 0px;
-      bottom: 0px;
-      z-index: 50;
-  }
-    
-    .offer-icon {
-        background: #fff;
-        padding: 23px;
-        border-radius: 15px;
-        font-size: 76px;
-        color: #1f756f;
-        width: 124px;
-    }
-    
-    .offer-text {
-        font-size: 20px;
-        color: #e2e2e2;
-    }
-    
-    .whatsapp {
+    .float {
         position: fixed;
         width: 60px;
         height: 60px;
@@ -64,10 +67,13 @@
         z-index: 100;
     }
     
-    .whatsapp-icon {
+    .my-float {
         margin-top: 16px;
     }
 
+    .whatsappicon {
+      background-image: url("../imagens/whatsapp-logo-1.png");
+  }
 
     @media (max-width: 1200px) {
       .ciercals1 {
@@ -88,8 +94,7 @@
         .offer h1{
           font-size: 20px;
         }
-        .offer p,
-        .offer-text{
+        .offer p{
           font-size: 18px;
         }
 

@@ -1,0 +1,99 @@
+.naving{
+  padding:0 50px;
+  display: flex;
+}
+
+.naving ul {
+  list-style: none;
+  margin:0;
+}
+
+.naving-menu {
+  min-height: 50px;
+  margin-left:auto;
+  display: flex;
+}
+
+.naving li {
+  display: inline-block;
+  font-weight: bold;
+  color: #223988;
+}
+
+.naving li a{
+  padding:6px 20px;
+}
+
+.naving ul li .active {
+  border-bottom: 3px solid #196370;
+}
+
+.List_btn {
+  display: none;
+  z-index: 150;
+}
+
+.naving a {
+  color: #1d3485;
+  padding-bottom: 7px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.logo img {
+  height: 60px;
+}
+
+@media (max-width: 1200px) {
+  .naving{
+    padding:0;
+    flex-direction: column;
+  }
+  .naving-menu {
+      margin: auto;
+      transition: 1s;
+      margin-top: -330px;
+  }
+  .naving-menu ul{
+      margin:0;
+      padding: 0;
+  }
+  .naving li {
+      display: block;
+      text-align: center;
+      border: none;
+      padding:4px 0;
+  }
+  .logo {
+      top: 4px ;
+      position: absolute ;
+      background-color: #fff;
+      border-radius: 6px ;
+      z-index: 200;
+  }
+  .logo-link {
+      width: fit-content;
+      height: fit-content ;
+  }
+  .logo img {
+      height: 44px;
+      text-align: center;
+      margin: 0px;
+      padding: 2px;
+      border-radius: 2px !important;
+      padding-right: 12px !important;
+      object-fit: cover;
+  }
+  .List_btn {
+      display: block;
+      width: 100%;
+      color: #fff;
+      text-align: right;
+      background: rgb(24 100 113);
+  }
+  .iconlist {
+      font-size: 32px;
+      margin: 10px;
+  }
+}
+
